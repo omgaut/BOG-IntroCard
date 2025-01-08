@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #f3f2ef;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default body margin */
+}
+
+.post-card {
+    background-color: #fff;
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for aesthetics */
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.user-info {
+    margin-left: 10px;
+}
+
+.user-name {
+    font-weight: 700;
+    display: block;
+}
+
+.user-title {
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.post-time {
+    color: #777;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.post-content {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.action {
+    cursor: pointer;
+    color: #0a66c2;
+    font-weight: 500;
+}
+
+.action:hover {
+    text-decoration: underline;
+}

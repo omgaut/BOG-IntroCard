@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Introduction Card</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="post-card">
+    <div class="post-header">
+        <img src="./ProfessionalPhoto.png" alt="Profile Picture" class="profile-picture">
+        <div class="user-info">
+            <span class="user-name">Om Gautam</span>
+            <span class="user-title">First Year at Georgia Tech</span>
+            <span class="post-time">1h • Edited</span>
+        </div>
+    </div>
+    <div class="post-content">
+        <p>
+            Hello! My name is Om Gautam and I am a first year Computer Science major originally from North Carolina. I am passionate about using technology to create equitable opportunities for education and community growth. Through initiatives like Code-I-Con, where I inspire young minds to explore programming, and my work with nonprofits to amplify their missions, I strive to leverage my technical skills to drive meaningful social impact. Be sure to like, comment, or share for a little surprise!
+        </p>
+    </div>
+    <div class="post-actions">
+        <div class="action" onclick="changeBackground('lightblue')">Like</div>
+        <div class="action" onclick="changeBackground('lightgreen')">Comment</div>
+        <div class="action" onclick="changeBackground('lightcoral')">Share</div>
+    </div>
+    <script>
+        const changeBackground = (color) => {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</div>
+
+</body>
+</html>
